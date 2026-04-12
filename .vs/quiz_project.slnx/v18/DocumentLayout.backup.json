@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\srest\\source\\repos\\quiz_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\wwwroot\\icon-192.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:wwwroot\\icon-192.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:wwwroot\\favicon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T07:36:17.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Quiz.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Quiz.razor",
+              "RelativeDocumentMoniker": "Pages\\Quiz.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Quiz.razor",
+              "RelativeToolTip": "Pages\\Quiz.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T07:04:08.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-09T18:18:00.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T03:43:24.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Weather.razor",
+              "RelativeToolTip": "Pages\\Weather.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T03:55:09.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-09T17:35:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-10T03:53:37.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T04:20:54.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T04:20:57.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "Models\\Question.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Question.cs",
+              "RelativeToolTip": "Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T07:06:45.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T06:34:30.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "Services\\PlayerService.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\PlayerService.cs",
+              "RelativeToolTip": "Services\\PlayerService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T06:37:41.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "icon-192.png",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\icon-192.png",
+              "RelativeDocumentMoniker": "wwwroot\\icon-192.png",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\icon-192.png",
+              "RelativeToolTip": "wwwroot\\icon-192.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-10T04:25:25.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "favicon.png",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.png",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\favicon.png",
+              "RelativeToolTip": "wwwroot\\favicon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-10T04:25:13.842Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

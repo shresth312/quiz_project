@@ -1,0 +1,35 @@
+﻿@inherits LayoutComponentBase
+
+<div class="layout">
+
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <div class="main-content">
+        @Body
+    </div>
+
+</div>
+
+<style>
+
+    .layout {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 220px;
+        min-height: 100vh;
+        background: linear-gradient(180deg,#1e3c72,#2a5298);
+    }
+
+    .main-content {
+        flex: 1;
+        height:auto;
+        width:auto;
+        padding: 30px;
+        background: #f4f6fb;
+    }
+
+</style>

@@ -1,0 +1,35 @@
+﻿@page "/"
+@inject quiz_project.Services.PlayerService playerService
+<div class="page-card">
+  
+<h3>Add Player</h3>
+
+<input placeholder="Enter Name" @bind="name" />
+<br />
+
+<button @onclick="AddPlayer">Submit</button>
+<br />
+
+<a href="/quiz">
+    <button>Start Quiz</button>
+</a>
+
+<p>@message</p>
+</div>
+
+@code {
+    string name;
+    int points;
+    string message;
+
+    void AddPlayer()
+    {
+        var success = playerService.AddPlayer(new()
+        {
+            Name = name,
+            Points = points
+        });
+
+        message = success ? "Player Added" : "Name must be unique";
+    }
+}

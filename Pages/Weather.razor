@@ -1,0 +1,23 @@
+﻿@page "/leaderboard"
+@inject quiz_project.Services.PlayerService playerService
+<div class="page-card">
+   
+
+<h3>Leaderboard</h3>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Points</th>
+    </tr>
+
+    @foreach (var player in playerService.GetLeaderboard())
+    {
+        <tr>
+            <td>@player.Name</td>
+            <td>@player.Points</td>
+        </tr>
+    }
+
+</table>
+</div>

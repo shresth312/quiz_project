@@ -1,0 +1,21 @@
+﻿@page "/about"
+
+<PageTitle>Counter</PageTitle>
+
+
+@page "/rewards"
+@inject quiz_project.Services.PlayerService playerService
+<div class="page-card">
+   
+<h3>Rewards</h3>
+
+@foreach (var player in playerService.Players)
+{
+    <p>
+        @player.Name →
+        <strong>
+            @playerService.GetReward(player.Points)
+        </strong>
+    </p>
+}
+</div>

@@ -1,0 +1,100 @@
+﻿@page "/quiz"
+@inject quiz_project.Services.PlayerService playerService
+
+<h3>Financial Literacy Quiz</h3>
+
+@if (quizFinished == false)
+{
+    <div class="page-card">
+
+        <h4>@questions[currentQuestion].Question</h4>
+
+        @foreach (var option in questions[currentQuestion].Options)
+        {
+            <button @onclick="(() => Answer(option))">
+                @option
+            </button>
+            <br />
+        }
+
+        <p>Score: @score</p>
+
+    </div>
+}
+else
+{
+    <div class="page-card">
+
+        <h4>Quiz Completed 🎉</h4>
+        <p>Your Score: @score</p>
+
+        <button @onclick="SaveScore">
+            Save Score to Leaderboard
+        </button>
+
+    </div>
+}
+
+@code {
+
+    string playerName = "";
+    int score = 0;
+    int currentQuestion = 0;
+    bool quizFinished = false;
+
+    List<QuestionModel> questions = new()
+{
+    new QuestionModel
+    {
+        Question="What is saving?",
+        Options=new(){"Spending money","Keeping money for future","Borrowing money"},
+        CorrectAnswer="Keeping money for future"
+    },
+
+    new QuestionModel
+    {
+        Question="Which is safest investment?",
+        Options=new(){"Lottery","Fixed Deposit","Gambling"},
+        CorrectAnswer="Fixed Deposit"
+    },
+
+    new QuestionModel
+    {
+        Question="Budget helps to?",
+        Options=new(){"Waste money","Track expenses","Increase debt"},
+        CorrectAnswer="Track expenses"
+    }
+};
+
+    void Answer(string selectedAnswer)
+    {
+        if (selectedAnswer == questions[currentQuestion].CorrectAnswer)
+        {
+            score += 10;
+        }
+
+        currentQuestion++;
+
+        if (currentQuestion >= questions.Count)
+        {
+            quizFinished = true;
+        }
+    }
+
+    void SaveScore()
+    {
+        playerService.AddPlayer(new()
+        {
+            Name = "Player" + DateTime.Now.Ticks,
+            Points = score
+        });
+    }
+
+    class QuestionModel
+    {
+        public string Question { get; set; }
+        public List<string> Options { get; set; }
+        public string CorrectAnswer { get; set; }
+    }
+
+}
