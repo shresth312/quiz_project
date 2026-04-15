@@ -1,0 +1,31 @@
+﻿@page "/login"
+@using quiz_project.Services
+@inject AuthService auth
+@inject NavigationManager nav
+
+<h3>Login</h3>
+
+<input placeholder="Username" @bind="username" />
+<input type="password" placeholder="Password" @bind="password" />
+
+<button @onclick="LoginUser">Login</button>
+
+<p>@message</p>
+
+@code {
+string username;
+string password;
+string message;
+
+void LoginUser()
+{
+    if(auth.Login(username,password))
+    {
+        nav.NavigateTo("/dashboard");
+    }
+        else
+        {
+            message = "Invalid login";
+        }
+    }
+}

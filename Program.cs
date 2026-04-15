@@ -11,6 +11,8 @@ namespace quiz_project
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
+            builder.Services.AddSingleton<AuthService>();
+            builder.Services.AddSingleton<UserSession>();
             builder.RootComponents.Add<HeadOutlet>("head::after");
             builder.Services.AddSingleton<PlayerService>();
 

@@ -1,13 +1,28 @@
-﻿@page "/quiz"
+﻿@page "/quiz/{Category}"
+@using quiz_project.Models
 @inject quiz_project.Services.PlayerService playerService
+@using quiz_project.Services
+@inject AuthService auth
+@inject NavigationManager nav
 
-<h3>Financial Literacy Quiz</h3>
+<h3>@Category Quiz</h3>
 
-@if (quizFinished == false)
+@if (string.IsNullOrEmpty(auth.CurrentUser))
+{
+    <p>Please login first.</p>
+}
+
+else if (!quizFinished)
 {
     <div class="page-card">
 
-        <h4>@questions[currentQuestion].Question</h4>
+        <h4>
+            Question @(currentQuestion + 1) of @questions.Count
+        </h4>
+
+        <p>
+            @questions[currentQuestion].Question
+        </p>
 
         @foreach (var option in questions[currentQuestion].Options)
         {
@@ -17,19 +32,29 @@
             <br />
         }
 
-        <p>Score: @score</p>
+        <br />
+
+        <strong>Score: @score</strong>
 
     </div>
 }
+
 else
 {
     <div class="page-card">
 
-        <h4>Quiz Completed 🎉</h4>
+        <h2>Quiz Completed 🎉</h2>
+
         <p>Your Score: @score</p>
 
         <button @onclick="SaveScore">
-            Save Score to Leaderboard
+            Save Score
+        </button>
+
+        <br /><br />
+
+        <button @onclick="GoDashboard">
+            Back to Dashboard
         </button>
 
     </div>
@@ -37,38 +62,84 @@ else
 
 @code {
 
-    string playerName = "";
-    int score = 0;
+    [Parameter]
+    public string Category { get; set; }
+
     int currentQuestion = 0;
+    int score = 0;
     bool quizFinished = false;
 
-    List<QuestionModel> questions = new()
-{
-    new QuestionModel
-    {
-        Question="What is saving?",
-        Options=new(){"Spending money","Keeping money for future","Borrowing money"},
-        CorrectAnswer="Keeping money for future"
-    },
+    List<QuestionModel> questions = new();
 
-    new QuestionModel
+    protected override void OnInitialized()
     {
-        Question="Which is safest investment?",
-        Options=new(){"Lottery","Fixed Deposit","Gambling"},
-        CorrectAnswer="Fixed Deposit"
-    },
-
-    new QuestionModel
-    {
-        Question="Budget helps to?",
-        Options=new(){"Waste money","Track expenses","Increase debt"},
-        CorrectAnswer="Track expenses"
+        LoadQuestions();
     }
-};
 
-    void Answer(string selectedAnswer)
+    void LoadQuestions()
     {
-        if (selectedAnswer == questions[currentQuestion].CorrectAnswer)
+
+        if (Category == "Savings")
+        {
+            questions = new()
+        {
+            new("What is saving?",
+                new(){ "Spending money", "Keeping money for future", "Borrowing money" },
+                "Keeping money for future"),
+
+            new("Emergency fund should cover?",
+                new(){ "1 day", "3–6 months expenses", "10 years expenses" },
+                "3–6 months expenses"),
+
+        };
+        }
+
+        else if (Category == "Investing")
+        {
+            questions = new()
+        {
+            new("Best long-term investment?",
+                new(){ "Stocks", "Lottery", "Gambling" },
+                "Stocks"),
+
+            new("Mutual funds are?",
+                new(){ "Safe box", "Investment pool", "Loan system" },
+                "Investment pool")
+        };
+        }
+
+        else if (Category == "Trading")
+        {
+            questions = new()
+        {
+            new("Trading means?",
+                new(){ "Long-term saving", "Buying & selling assets", "Borrowing money" },
+                "Buying & selling assets"),
+
+            new("Intraday trading happens?",
+                new(){ "Same day", "1 year", "10 years" },
+                "Same day")
+        };
+        }
+
+        else if (Category == "Spending")
+        {
+            questions = new()
+        {
+            new("Budget helps?",
+                new(){ "Waste money", "Track expenses", "Increase debt" },
+                "Track expenses"),
+
+            new("Needs are?",
+                new(){ "Luxury items", "Essential items", "Entertainment only" },
+                "Essential items")
+        };
+        }
+    }
+
+    void Answer(string selected)
+    {
+        if (selected == questions[currentQuestion].CorrectAnswer)
         {
             score += 10;
         }
@@ -83,18 +154,33 @@ else
 
     void SaveScore()
     {
-        playerService.AddPlayer(new()
+        playerService.AddPlayer(new Player
         {
-            Name = "Player" + DateTime.Now.Ticks,
+            Name = auth.CurrentUser,
             Points = score
         });
+
+        nav.NavigateTo("/leaderboard");
     }
+
+    void GoDashboard()
+    {
+        nav.NavigateTo("/dashboard");
+    }
+
 
     class QuestionModel
     {
         public string Question { get; set; }
         public List<string> Options { get; set; }
         public string CorrectAnswer { get; set; }
+
+        public QuestionModel(string q, List<string> o, string c)
+        {
+            Question = q;
+            Options = o;
+            CorrectAnswer = c;
+        }
     }
 
 }

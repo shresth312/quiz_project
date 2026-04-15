@@ -1,35 +1,55 @@
-﻿@page "/"
-@inject quiz_project.Services.PlayerService playerService
-<div class="page-card">
-  
-<h3>Add Player</h3>
+﻿@page "/dashboard"
+@using quiz_project.Services
+@inject AuthService auth
+@inject quiz_project.Services.UserSession session
+@inject NavigationManager nav
 
-<input placeholder="Enter Name" @bind="name" />
-<br />
+@if (string.IsNullOrEmpty(auth.CurrentUser))
+{
+    <h4>Please login first</h4>
+}
+else
+{
+    <div class="page-card">
 
-<button @onclick="AddPlayer">Submit</button>
-<br />
+        <h2>Welcome, @auth.CurrentUser 👋</h2>
+        <p>Select a quiz category to start learning smarter money habits.</p>
 
-<a href="/quiz">
-    <button>Start Quiz</button>
-</a>
+        <div class="category-grid">
 
-<p>@message</p>
-</div>
+            <Component />
+            <button @onclick="@(() => StartQuiz("Savings") )">
+                💰 Savings
+            </button>
+
+            <button @onclick="@( () => StartQuiz("Investing") )">
+                📈 Investing
+            </button>
+
+            <button @onclick="@( () => StartQuiz("Trading") )">
+                📊 Trading
+            </button>
+
+            <button @onclick="@( () => StartQuiz("Spending") )">
+                🛒 Spending
+            </button>
+
+        </div>
+
+    </div>
+}
 
 @code {
-    string name;
-    int points;
-    string message;
 
-    void AddPlayer()
+    void StartQuiz(string category)
     {
-        var success = playerService.AddPlayer(new()
-        {
-            Name = name,
-            Points = points
-        });
-
-        message = success ? "Player Added" : "Name must be unique";
+        nav.NavigateTo($"/quiz/{category}");
     }
+
+
+void Logout()
+{
+session.Username = null;
+nav.NavigateTo("/signup", true);
+}
 }

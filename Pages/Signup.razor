@@ -1,0 +1,32 @@
+﻿@page "/"
+@page "/Signup"
+@using quiz_project.Services
+@inject AuthService auth
+@inject NavigationManager nav
+
+<h3>Create Account</h3>
+
+<input placeholder="Username" @bind="username" />
+<input type="password" placeholder="Password" @bind="password" />
+
+<button @onclick="Register">Signup</button>
+
+<p>@message</p>
+
+@code {
+string username;
+string password;
+string message;
+
+void Register()
+{
+    if(auth.Signup(username,password))
+    {
+        nav.NavigateTo("/login");
+    }
+        else
+        {
+            message = "Username already exists";
+        }
+    }
+}

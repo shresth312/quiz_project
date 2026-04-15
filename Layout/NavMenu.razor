@@ -1,22 +1,51 @@
-﻿<nav class="sidebar-nav">
+﻿@using quiz_project.Services
+@inject AuthService auth
+@inject NavigationManager nav
 
-    <div class="logo">💰 FinQuiz</div>
+<nav class="sidebar">
 
-    <NavLink class="nav-item" href="/" Match="NavLinkMatch.All">
-        🏠 Home
+    <div class="logo">
+        💰 FinQuiz
+    </div>
+
+    @if (!string.IsNullOrEmpty(auth.CurrentUser))
+    {
+        <div class="username">
+            👤 @auth.CurrentUser
+        </div>
+    }
+
+    <NavLink href="/dashboard" class="nav-link">
+        🏠 Dashboard
     </NavLink>
 
-    <NavLink class="nav-item" href="/quiz">
+    <NavLink href="/quiz/Savings" class="nav-link">
         🧠 Quiz
     </NavLink>
 
-    <NavLink class="nav-item" href="/leaderboard">
+    <NavLink href="/leaderboard" class="nav-link">
         🏆 Leaderboard
     </NavLink>
 
-    <NavLink class="nav-item" href="/rewards">
+    <NavLink href="/rewards" class="nav-link">
         🎁 Rewards
     </NavLink>
+
+   
+      
+    
+    
+        <NavLink href="/login" class="nav-link">
+            🔐 Login
+        </NavLink>
+
+        <NavLink href="/signup" class="nav-link">
+            ✍ Signup
+        </NavLink>
+    <button class="logout-btn" @onclick="() => Logout()">
+        🚪 Logout
+    </button>
+    
 
 </nav>
 
@@ -24,58 +53,103 @@
 <style>
 
     /* Sidebar container */
-    .sidebar-nav {
+
+    .sidebar {
+        height: 100vh;
+        width: 240px;
+        background: linear-gradient(180deg,#0f2027,#203a43,#2c5364);
+        padding: 30px 20px;
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        padding: 30px 20px;
-        background: linear-gradient(180deg,#0f2027,#203a43,#2c5364);
-        animation: slideIn 0.8s ease forwards;
+        animation: slideIn 0.7s ease;
     }
 
-    /* Logo styling */
+    /* Logo */
+
     .logo {
         font-size: 26px;
         font-weight: bold;
         color: white;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
+    }
+
+    /* Username display */
+
+    .username {
+        color: #ffd166;
+        font-size: 15px;
+        margin-bottom: 25px;
     }
 
     /* Navigation links */
-    .nav-item {
+
+    .nav-link {
         color: white;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 17px;
         padding: 12px 16px;
-        border-radius: 12px;
-        margin-bottom: 12px;
-        transition: all 0.3s ease;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        transition: 0.3s ease;
     }
 
-        /* Hover animation */
-        .nav-item:hover {
-            transform: translateX(8px);
-            background: rgba(255,255,255,0.15);
+        /* Hover effect */
+
+        .nav-link:hover {
+            background: rgba(255,255,255,0.18);
+            transform: translateX(6px);
         }
 
         /* Active link highlight */
-        .nav-item.active {
+
+        .nav-link.active {
             background: white;
             color: #203a43;
-            font-weight: 600;
+            font-weight: bold;
         }
 
-    /* KEYFRAME FIX (no Razor conflict) */
+    /* Logout button */
+
+    .logout-btn {
+        margin-top: auto;
+        padding: 12px;
+        border: none;
+        border-radius: 10px;
+        background: #ff6b6b;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+        .logout-btn:hover {
+            transform: scale(1.05);
+        }
+
+    /* Animation */
+
     @@keyframes slideIn {
-        0% {
+
+        from {
             transform: translateX(-100%);
             opacity: 0;
         }
 
-        100% {
+        to {
             transform: translateX(0);
             opacity: 1;
         }
     }
 
 </style>
+
+
+@code {
+
+    void Logout()
+    {
+        auth.Logout();
+        nav.NavigateTo("/login");
+    }
+
+}

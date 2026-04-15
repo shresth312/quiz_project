@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "quiz_project",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-YuE6qmGbSgrU7wPYkGd6Ytgdv8wCnrDIHZM/w00RlBc=",
+    "hash": "sha256-HYoZK2MvBgIWUxmkMzTU0qOIEBgnZGyQ5V3wZuukvOA=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ykrnppwhq2.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "quiz_project.wasm",
-        "name": "quiz_project.74vdmbcz9h.wasm",
-        "integrity": "sha256-Ob9oinlRxg65VzglK5UOzmUBEpUxSfhGNlRPn03RHo4=",
+        "name": "quiz_project.snq6y7vp8v.wasm",
+        "integrity": "sha256-iCV+pdVgJUngmCei7xDZjyqGOamMpPJWOb5xAPLs8jw=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "quiz_project.pdb",
-        "name": "quiz_project.vg4kvozcn2.pdb",
-        "integrity": "sha256-n2Ix/WooNrxryDcdGQ5Aw91M5r3jW3K5YimOMxYgrYk=",
+        "name": "quiz_project.y1mq4wz40n.pdb",
+        "integrity": "sha256-JiYyzl8dgThf/nVcVNYbSRtoWVwiz8AH0x1AJMm9lsw=",
         "cache": "force-cache"
       }
     ],
