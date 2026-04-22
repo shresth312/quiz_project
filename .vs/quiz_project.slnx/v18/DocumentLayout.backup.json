@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\srest\\source\\repos\\quiz_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -27,20 +11,40 @@
       "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\signup.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -51,24 +55,20 @@
       "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:services\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83553805-DC68-FE2C-0466-52411418DB1E}|quiz_project.csproj|c:\\users\\srest\\source\\repos\\quiz_project\\wwwroot\\icon-192.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,65 +102,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\UserSession.cs",
-              "RelativeDocumentMoniker": "Services\\UserSession.cs",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\UserSession.cs",
-              "RelativeToolTip": "Services\\UserSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T18:13:49.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Signup.razor",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Signup.razor",
-              "RelativeDocumentMoniker": "Pages\\Signup.razor",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Signup.razor",
-              "RelativeToolTip": "Pages\\Signup.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-15T17:53:11.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T17:55:28.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAMwCcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T17:51:56.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "Services\\PlayerService.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\PlayerService.cs",
+              "RelativeToolTip": "Services\\PlayerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T06:37:41.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AgIAAOcBAAAAAAAAAAAAAAQCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-10T03:53:37.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Quiz.razor",
               "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Quiz.razor",
               "RelativeDocumentMoniker": "Pages\\Quiz.razor",
               "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Quiz.razor",
               "RelativeToolTip": "Pages\\Quiz.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-12T07:04:08.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Pages\\Home.razor",
               "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Home.razor",
               "RelativeToolTip": "Pages\\Home.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-09T18:18:00.919Z",
               "EditorCaption": ""
@@ -168,45 +181,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "wwwroot\\css\\app.css",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAAJUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-10T03:53:37.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T04:20:57.603Z",
+              "WhenOpened": "2026-04-12T06:34:30.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\NavMenu.razor*",
-              "RelativeToolTip": "Layout\\NavMenu.razor*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-12T07:36:17.146Z",
+              "DocumentIndex": 3,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "Models\\Question.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Question.cs",
+              "RelativeToolTip": "Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T07:06:45.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -220,45 +220,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Login.razor",
-              "RelativeDocumentMoniker": "Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Login.razor",
-              "RelativeToolTip": "Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "Signup.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Signup.razor",
+              "RelativeDocumentMoniker": "Pages\\Signup.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Signup.razor",
+              "RelativeToolTip": "Pages\\Signup.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-15T17:55:28.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Counter.razor",
-              "RelativeToolTip": "Pages\\Counter.razor",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-10T03:43:24.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PlayerService.cs",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\PlayerService.cs",
-              "RelativeDocumentMoniker": "Services\\PlayerService.cs",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\PlayerService.cs",
-              "RelativeToolTip": "Services\\PlayerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T06:37:41.235Z",
+              "WhenOpened": "2026-04-15T17:53:11.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-09T17:35:28.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "Pages\\Weather.razor",
@@ -266,37 +253,59 @@
               "RelativeToolTip": "Pages\\Weather.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-10T03:55:09.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T03:55:09.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T17:35:28.116Z"
+              "WhenOpened": "2026-04-10T03:43:24.212Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "Models\\Player.cs",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Player.cs",
-              "RelativeToolTip": "Models\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAH8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T07:36:17.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T06:34:30.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T04:20:57.603Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\UserSession.cs",
+              "RelativeDocumentMoniker": "Services\\UserSession.cs",
+              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Services\\UserSession.cs",
+              "RelativeToolTip": "Services\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T18:13:49.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\_Imports.razor",
               "RelativeDocumentMoniker": "_Imports.razor",
@@ -304,20 +313,7 @@
               "RelativeToolTip": "_Imports.razor",
               "ViewState": "AgIAAAUAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-10T04:20:54.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Question.cs",
-              "DocumentMoniker": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Question.cs",
-              "RelativeDocumentMoniker": "Models\\Question.cs",
-              "ToolTip": "C:\\Users\\srest\\source\\repos\\quiz_project\\Models\\Question.cs",
-              "RelativeToolTip": "Models\\Question.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T07:06:45.498Z"
+              "WhenOpened": "2026-04-10T04:20:54.86Z"
             },
             {
               "$type": "Document",

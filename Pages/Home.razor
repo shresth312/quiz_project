@@ -10,29 +10,80 @@
 }
 else
 {
-    <div class="page-card">
+    <div class="dashboard-container">
 
-        <h2>Welcome, @auth.CurrentUser 👋</h2>
-        <p>Select a quiz category to start learning smarter money habits.</p>
+        <h1 class="welcome-text">
+            Welcome @session.Username 👋
+        </h1>
+
+        <div class="intro-box">
+
+            <h2>📚 Improve Your Financial Literacy</h2>
+
+            <p>
+                Financial literacy helps you make smarter decisions
+                about saving, investing, budgeting and spending.
+                Start learning today through interactive quizzes.
+            </p>
+
+        </div>
+
 
         <div class="category-grid">
 
-            <Component />
-            <button @onclick="@(() => StartQuiz("Savings") )">
+            <div class="category-card savings"
+                 @onclick='() => StartQuiz("Savings")'>
+
                 💰 Savings
-            </button>
+                <span>Learn how to build strong saving habits</span>
 
-            <button @onclick="@( () => StartQuiz("Investing") )">
+            </div>
+
+
+            <div class="category-card investing"
+                 @onclick='() => StartQuiz("Investing")'>
+
                 📈 Investing
-            </button>
+                <span>Grow your money with smart investments</span>
 
-            <button @onclick="@( () => StartQuiz("Trading") )">
+            </div>
+
+
+            <div class="category-card trading"
+                 @onclick='() => StartQuiz("Trading")'>
+
                 📊 Trading
-            </button>
+                <span>Understand stock market basics</span>
 
-            <button @onclick="@( () => StartQuiz("Spending") )">
+            </div>
+
+
+            <div class="category-card spending"
+                 @onclick='() => StartQuiz("Spending")'>
+
                 🛒 Spending
-            </button>
+                <span>Control expenses and budget wisely</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="importance-box">
+
+            <h2>Why Financial Literacy Matters 💡</h2>
+
+            <ul>
+
+                <li>✔ Helps manage money efficiently</li>
+
+                <li>✔ Builds wealth over time</li>
+
+                <li>✔ Reduces financial stress</li>
+
+                <li>✔ Improves investment decisions</li>
+
+            </ul>
 
         </div>
 
@@ -47,9 +98,4 @@ else
     }
 
 
-void Logout()
-{
-session.Username = null;
-nav.NavigateTo("/signup", true);
-}
 }

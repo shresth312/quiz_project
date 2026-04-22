@@ -2,30 +2,57 @@
 @using quiz_project.Services
 @inject AuthService auth
 @inject NavigationManager nav
+<div class="form-wrapper">
 
-<h3>Login</h3>
+    <div class="form-card">
 
-<input placeholder="Username" @bind="username" />
-<input type="password" placeholder="Password" @bind="password" />
+        <h2>Welcome Back 👋</h2>
 
-<button @onclick="LoginUser">Login</button>
+        <input placeholder="Username"
+               @bind="username" />
 
-<p>@message</p>
+        <input type="password"
+               placeholder="Password"
+               @bind="password" />
+
+        <button @onclick="LoginUser">
+            Login
+        </button>
+
+        <p class="switch-text">
+            Don't have an account?
+            <a @onclick="GoSignup">Signup</a>
+        </p>
+
+    </div>
+
+</div>
+
 
 @code {
-string username;
-string password;
-string message;
 
-void LoginUser()
-{
-    if(auth.Login(username,password))
+    string username;
+    string password;
+    string message;
+
+    void LoginUser()
     {
-        nav.NavigateTo("/dashboard");
-    }
+        if (auth.Login(username, password))
+        {
+            nav.NavigateTo("/dashboard");
+        }
         else
         {
             message = "Invalid login";
         }
     }
+
+    void GoSignup()
+    {
+        nav.NavigateTo("/signup");
+    }
+
 }
+
+
+   

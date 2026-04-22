@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-/* Page titles */
+
 h3 {
     font-size: 28px;
     color: #203a43;
@@ -12,7 +12,7 @@ h3 {
     animation: fadeIn 0.6s ease;
 }
 
-/* Page container card */
+
 .page-card {
     background: white;
     padding: 30px;
@@ -22,7 +22,7 @@ h3 {
     animation: fadeUp 0.6s ease;
 }
 
-/* Inputs */
+
 input {
     width: 260px;
     padding: 12px;
@@ -38,7 +38,7 @@ input {
         box-shadow: 0 0 8px rgba(52,152,219,0.4);
     }
 
-/* Buttons */
+
 button {
     padding: 12px 24px;
     margin-top: 15px;
@@ -56,7 +56,7 @@ button {
         box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     }
 
-/* Table styling */
+
 table {
     width: 80%;
     background: white;
@@ -148,3 +148,389 @@ strong {
         transform: translateY(-2px);
         box-shadow: 0px 6px 18px rgba(0,0,0,0.25);
     }
+/* FULL PAGE STRUCTURE */
+
+.app-layout {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg,#eef2f7,#f8fbff);
+}
+
+
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg,#1f3c88,#3a6073);
+    color: white;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+
+
+.main-content {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 135deg, #eef2f7, #f8fbff );
+}
+.form-card {
+    width: 420px;
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadeSlide 0.6s ease;
+}
+
+    /* INPUT STYLE */
+
+    .form-card input {
+        padding: 14px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    /* BUTTON STYLE */
+
+    .form-card button {
+        background: linear-gradient( 45deg, #00c6ff, #0072ff );
+        color: white;
+        padding: 14px;
+        border: none;
+        border-radius: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+        .form-card button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 18px rgba(0,114,255,0.3);
+        }
+
+/* ENTRY ANIMATION */
+
+@keyframes fadeSlide {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card {
+    width: 420px;
+    background: white;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: fadeSlide 0.6s ease;
+}
+
+    .form-card input {
+        padding: 14px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    .form-card button {
+        background: linear-gradient( 45deg, #00c6ff, #0072ff );
+        color: white;
+        padding: 14px;
+        border: none;
+        border-radius: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+        .form-card button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 8px 18px rgba(0,114,255,0.3);
+        }
+
+.switch-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+    .switch-text a {
+        color: #0072ff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+.dashboard-container {
+    max-width: 1100px;
+    animation: fadeSlide 0.7s ease;
+}
+
+
+/* WELCOME TEXT */
+
+.welcome-text {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+
+/* INTRO BOX */
+
+.intro-box {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+}
+
+
+/* CATEGORY GRID */
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+
+/* CATEGORY CARD */
+
+.category-card {
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.35s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+    /* CARD DESCRIPTION */
+
+    .category-card span {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+
+    /* HOVER EFFECT */
+
+    .category-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 15px 40px rgba(0,0,0,0.2);
+    }
+
+
+/* DIFFERENT COLORS */
+
+.savings {
+    background: linear-gradient(135deg,#43cea2,#185a9d);
+}
+
+.investing {
+    background: linear-gradient(135deg,#f7971e,#ffd200);
+}
+
+.trading {
+    background: linear-gradient(135deg,#36d1dc,#5b86e5);
+}
+
+.spending {
+    background: linear-gradient(135deg,#ff6a00,#ee0979);
+}
+
+
+/* IMPORTANCE BOX */
+
+.importance-box {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
+}
+
+
+    /* LIST STYLE */
+
+    .importance-box ul {
+        margin-top: 15px;
+        line-height: 2;
+    }
+
+
+/* ENTRY ANIMATION */
+
+@keyframes fadeSlide {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.quiz-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+
+/* QUIZ CONTAINER */
+
+.quiz-container {
+    width: 700px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    animation: fadeSlide 0.6s ease;
+}
+
+
+/* PROGRESS BAR */
+
+.progress-box {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+/* SCORE TEXT */
+
+.score-text {
+    color: #0072ff;
+}
+
+
+/* QUESTION CARD */
+
+.question-card {
+    background: #f4f7ff;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* OPTIONS GRID */
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+
+/* OPTION BUTTON */
+
+.option-btn {
+    background: linear-gradient( 135deg, #667eea, #764ba2 );
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+    .option-btn:hover {
+        transform: translateY(-4px);
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+    }
+
+
+/* FINISH CARD */
+
+.quiz-finish-card {
+    width: 500px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+/* BUTTONS */
+
+.save-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.dashboard-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+.quiz-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/* QUIZ PAGE CENTER ALIGNMENT */
+
+.quiz-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* QUIZ TITLE */
+
+.quiz-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: linear-gradient( 45deg, #00c6ff, #0072ff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

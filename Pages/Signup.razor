@@ -4,14 +4,22 @@
 @inject AuthService auth
 @inject NavigationManager nav
 
-<h3>Create Account</h3>
+<div class="form-card">
 
-<input placeholder="Username" @bind="username" />
-<input type="password" placeholder="Password" @bind="password" />
+    <h2>Create Account</h2>
 
-<button @onclick="Register">Signup</button>
+    <input placeholder="Username"
+           @bind="username" />
 
-<p>@message</p>
+    <input type="password"
+           placeholder="Password"
+           @bind="password" />
+
+    <button @onclick="Register">
+        Signup
+    </button>
+
+</div>
 
 @code {
 string username;

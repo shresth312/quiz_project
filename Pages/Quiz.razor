@@ -5,60 +5,91 @@
 @inject AuthService auth
 @inject NavigationManager nav
 
-<h3>@Category Quiz</h3>
+<div class="quiz-page-wrapper">
 
+    <h1 class="quiz-title">
+        📊 @Category Quiz
+    </h1>
 @if (string.IsNullOrEmpty(auth.CurrentUser))
 {
-    <p>Please login first.</p>
+    <div class="page-card">
+        <p>Please login first.</p>
+    </div>
 }
 
 else if (!quizFinished)
 {
-    <div class="page-card">
 
-        <h4>
-            Question @(currentQuestion + 1) of @questions.Count
-        </h4>
+    <div class="quiz-container">
 
-        <p>
+        <div class="progress-box">
+
+            Question @(currentQuestion + 1)
+            of @questions.Count
+
+            <span class="score-text">
+                Score: @score
+            </span>
+
+        </div>
+
+
+        <div class="question-card">
+
             @questions[currentQuestion].Question
-        </p>
 
-        @foreach (var option in questions[currentQuestion].Options)
-        {
-            <button @onclick="(() => Answer(option))">
-                @option
-            </button>
-            <br />
-        }
+        </div>
 
-        <br />
 
-        <strong>Score: @score</strong>
+        <div class="options-grid">
+
+            @foreach (var option in questions[currentQuestion].Options)
+            {
+                <button class="option-btn"
+                        @onclick="(() => Answer(option))">
+
+                    @option
+
+                </button>
+            }
+
+        </div>
 
     </div>
+
 }
 
 else
 {
-    <div class="page-card">
 
-        <h2>Quiz Completed 🎉</h2>
+    <div class="quiz-finish-card">
+
+        <h2>🎉 Quiz Completed</h2>
 
         <p>Your Score: @score</p>
 
-        <button @onclick="SaveScore">
+
+        <button class="save-btn"
+                @onclick="SaveScore">
+
             Save Score
+
         </button>
 
-        <br /><br />
 
-        <button @onclick="GoDashboard">
+        <button class="dashboard-btn"
+                @onclick="GoDashboard">
+
             Back to Dashboard
+
         </button>
 
     </div>
+    
+
 }
+</div>
+
 
 @code {
 
@@ -71,10 +102,12 @@ else
 
     List<QuestionModel> questions = new();
 
+
     protected override void OnInitialized()
     {
         LoadQuestions();
     }
+
 
     void LoadQuestions()
     {
@@ -90,7 +123,6 @@ else
             new("Emergency fund should cover?",
                 new(){ "1 day", "3–6 months expenses", "10 years expenses" },
                 "3–6 months expenses"),
-
         };
         }
 
@@ -137,6 +169,7 @@ else
         }
     }
 
+
     void Answer(string selected)
     {
         if (selected == questions[currentQuestion].CorrectAnswer)
@@ -152,6 +185,7 @@ else
         }
     }
 
+
     void SaveScore()
     {
         playerService.AddPlayer(new Player
@@ -163,9 +197,10 @@ else
         nav.NavigateTo("/leaderboard");
     }
 
+
     void GoDashboard()
     {
-        nav.NavigateTo("/dashboard");
+        nav.NavigateTo("/home");
     }
 
 
